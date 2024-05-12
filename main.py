@@ -13,7 +13,7 @@ ASTRA_DB_APPLICATION_TOKEN = st.secrets["ASTRA_DB_APPLICATION_TOKEN"]
 ASTRA_DB_API_ENDPOINT = st.secrets["ASTRA_DB_API_ENDPOINT"]
 
 # Configure your embedding model and vector store
-embedding = OpenAIEmbeddings(model="text-embedding-3-large", dimensions=1024)
+embedding = OpenAIEmbeddings()
 
 astra_db_store = AstraDBVectorStore(
     collection_name="PTT_unstructured",
