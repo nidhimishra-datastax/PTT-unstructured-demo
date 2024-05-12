@@ -1,0 +1,7 @@
+altair
+python-dotenv
+numpy
+pandas
+pydeck
+streamlit
+ragstack-ai
