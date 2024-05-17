@@ -24,7 +24,7 @@ astra_db_store = AstraDBVectorStore(
 print("Astra vector store configured")
 
 prompt = """
-Answer the question based only on the engineering documents supplied as context. If you don't know the answer, say "I don't know".
+Answer the question based only on the engineering documents supplied as context. If you don't know the answer, say "I don't know". Answer in the language of user query.
 Context: {context}
 Question: {question}
 Your answer:
